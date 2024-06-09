@@ -105,6 +105,7 @@ body {
 
 .pokeballs {
     display: flex;
+    flex-wrap: wrap;
     gap: 5%;
     margin-bottom: 10%;
     margin-right: 5%;
