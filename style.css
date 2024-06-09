@@ -2,16 +2,19 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
+    justify-content: center;
+    gap: 50%;
+    margin: 0 12%;
     padding: 16px;
-    
+
+    flex-wrap: wrap;   
 }
+
 
 .links {
     display: flex;
@@ -21,11 +24,11 @@ body {
 .content {
     display: flex;
     justify-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    flex-wrap: wrap-reverse;
+    margin: 0 12%;
     margin-top: 80px;
     padding: 16px;
-    gap: 300px;
+    gap: 5%;
 }
 
 .top {
@@ -44,6 +47,7 @@ body {
 .title {
     font-weight: bold;
     font-size: 24px;
+    margin-bottom: 5%;
 }
 
 
@@ -57,6 +61,8 @@ body {
 
 .images {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
     gap: 48px
 }
 
@@ -96,6 +102,7 @@ body {
 .pokeballs {
     display: flex;
     gap: 40px;
+    margin-bottom: 10%;
 }
 
 a {
@@ -123,11 +130,10 @@ p {
 .quote-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     background-color: #E5E7EB;
-    margin-left: 200px;
-    margin-top: 200px;
-    margin-right: 200px;
-    padding: 150px;
+    margin: 10% auto;
+    padding-bottom: 5%;
     gap: 16px;
 }
 
@@ -137,13 +143,16 @@ p {
     font-weight: 100;
     font-style: italic;
     color: #1f2937;
-
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
 }
 
 .person {
    text-align: right;
    font-size: 30px;
    font-weight: bold;
+   padding-right: 5%
 }
 
 .banner{
@@ -151,12 +160,11 @@ p {
     background-color: #3882F6;
     justify-content: center;
     align-items: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 100px;
+    margin: 5% auto;
     padding: 50px;
     gap: 200px;
     border-radius: 10px;    
+     
 }
 
 .Direction {
@@ -177,6 +185,13 @@ p {
     background-color: #3882F6;
     box-shadow: none;
     border: 2px solid white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    min-width: 120px;
+    max-width: 100%;
     padding: 0px 24px;
     border-radius: 10px;
     font-size: 18px;
