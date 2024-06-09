@@ -109,6 +109,7 @@ body {
     gap: 5%;
     margin-bottom: 10%;
     margin-right: 5%;
+    justify-content: center;
 }
 
 a {
