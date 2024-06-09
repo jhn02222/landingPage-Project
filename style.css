@@ -95,7 +95,7 @@ body {
 }
 
 .pokeball {
-    height: 170px;
+    max-height: 100vh;
     width: auto;
 }
 
