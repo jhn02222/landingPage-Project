@@ -95,13 +95,13 @@ body {
 }
 
 .pokeball {
-    max-height: 100vh;
+    height: 120px;
     width: auto;
 }
 
 .pokeballs {
     display: flex;
-    gap: 40px;
+    gap: 10%;
     margin-bottom: 10%;
 }
 
